@@ -1,0 +1,163 @@
+body{
+    background: #E6DFC5;
+    font-size: 16px;
+    font-family: 'PT Sans';
+}
+
+a{
+    text-decoration: none;
+}
+
+.dashboard{
+    background: #A67563;
+    color: #FAFAFA;
+    min-width: 300px;
+    min-height: 100vh;
+}
+
+.dashboard a{
+    color: #FAFAFA;
+}
+
+.dashboard .logo{
+    background: #BF7E78;
+    font-style: italic;
+}
+
+.dashboard .logo h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.dashboard .menu a{
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid #44433F;
+}
+
+.dashboard .menu a:hover{
+    background: #918F8A;
+}
+
+.dashboard .menu a svg{
+    margin-right: 10px;
+}
+
+.main{
+    padding-top: 40px;
+}
+
+.main .column{
+    padding: 0 40px;
+}
+
+.main .title{
+    color: #0e0e0fc0;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main .widget{
+    margin-bottom: 40px;
+}
+
+.main .new-entry .head-entry{
+    border-radius: 25px;
+}
+.main .new-entry form input[type="text"],
+.main .new-entry form textarea{
+    padding:10px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0px 4px 2px 0px rgba(0,0,0,.2);
+}
+
+
+.main .new-entry form textarea{
+    height: 300px;
+    min-height: 200px;
+    min-width: 100%;
+    border-radius: 10px;
+}
+
+.main .new-entry button{
+    background: #48665E;
+    cursor: pointer;
+    color: #FAFAFA;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    transition: .3s ease all;
+}
+
+.main .new-entry button:hover{
+    background: #918B77;
+}
+
+.card{
+    background: #F0F2B3;
+    color: #44433F;
+    border: none;
+    box-shadow: 0px 3px 2px 0px rgba(0,0,0,.2);
+}
+
+.card .btn{
+    background-color: #BF7E78;
+    border: none;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+
+.card .btn:hover{
+    background-color: #48665E;
+}
+
+.stadistics{
+    display: flex;
+    flex-flow: column wrap;
+    color: #FAFAFA;
+    background: #48665E;
+    border-radius: 10px;
+}
+
+.stadistics .number{
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 75px;
+}
+
+
+/*xs*/
+@media screen and (max-width: 320px) {}
+
+/*sm*/
+@media screen and (max-width: 576px) {
+	.dashboard{
+		min-height: auto;
+	}
+}
+
+/*md*/
+@media screen and (max-width: 768px) {}
+
+/*lg*/
+@media screen and (max-width: 992px) {}
+
+/*xl*/
+@media screen and (max-width: 1200px) {
+	.dashboard {
+		min-width: auto;
+	}
+
+	.dashboard .logo {
+		display: none;
+	}
+}
+
+/*xx*/
+@media screen and (max-width: 1400px) {}
